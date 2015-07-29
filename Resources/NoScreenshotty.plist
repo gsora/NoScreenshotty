@@ -1,0 +1,26 @@
+entry = {
+  bundle = AppList;
+  cell = PSLinkCell;
+  icon = "/Applications/Preferences.app/Settings.png";
+  isController = 1;
+  label = "NoScreenshotty";
+  ALSettingsPath = "/var/mobile/Library/Preferences/me.urandom.noscreenshotty.plist";
+  ALSettingsKeyPrefix = "NoScreenshotty-";
+  ALSectionDescriptors = (
+  	{
+  	  title = "System Applications";
+  	  predicate = "isSystemApplication = TRUE";
+  	  "cell-class-name" = "ALSwitchCell";
+  	  "icon-size" = 29;
+  	  "suppress-hidden-apps" = 1;
+  	},
+  	{
+  	  title = "User Applications";
+  	  predicate = "isSystemApplication = FALSE";
+  	  "cell-class-name" = "ALSwitchCell";
+  	  "icon-size" = 29;
+  	  "suppress-hidden-apps" = 1;
+  	  "footer-title" = "© 2015-2016 Gianguido 'plk' Sorà";
+  	}
+  );
+};

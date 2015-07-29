@@ -1,0 +1,9 @@
+Package: me.urandom.noscreenshotty
+Name: NoScreenshotty
+Depends: mobilesubstrate, preferenceloader
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Disable native iOS screenshot feature in certain applications
+Maintainer: Gianguido "plk" Sorà
+Author: Gianguido "plk" Sorà
+Section: Tweaks
