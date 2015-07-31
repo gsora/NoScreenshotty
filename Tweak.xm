@@ -50,7 +50,9 @@
       [(SBBulletinBannerController *)[%c(SBBulletinBannerController) sharedInstance] observer:nil addBulletin:banner forFeed:2];
     }
     [banner release];
+    [settingsDict release];
   } else {
+    [settingsDict release];
     %orig(arg1);
   }
 
