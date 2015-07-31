@@ -1,7 +1,7 @@
 entry = {
   bundle = AppList;
   cell = PSLinkCell;
-  icon = "/Applications/Preferences.app/Settings.png";
+  icon = "/Library/PreferenceLoader/Preferences/noscreenshotty.png";
   isController = 1;
   label = "NoScreenshotty";
   ALSettingsPath = "/var/mobile/Library/Preferences/me.urandom.noscreenshotty.plist";
