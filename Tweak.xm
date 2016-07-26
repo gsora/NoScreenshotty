@@ -19,9 +19,9 @@
 -(void)observer:(id)arg1 addBulletin:(id)arg2 forFeed:(unsigned long long)arg3 playLightsAndSirens:(BOOL)arg4 withReply:(id)arg5;
 @end
 
-%hook SBScreenShotter
+%hook SBScreenshotManager
 
-- (void)saveScreenshot:(_Bool)arg1 {
+- (void)saveScreenshots {
 
   // get current open application identifier
   SBApplication *frontApp = [(SpringBoard*)[UIApplication sharedApplication] _accessibilityFrontMostApplication];
@@ -53,7 +53,7 @@
     [settingsDict release];
   } else {
     [settingsDict release];
-    %orig(arg1);
+    %orig;
   }
 
 }
