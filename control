@@ -1,4 +1,4 @@
-Package: me.urandom.noscreenshotty
+Package: xyz.gsora.noscreenshotty
 Name: NoScreenshotty
 Depends: mobilesubstrate, preferenceloader
 Version: 0.2.1
