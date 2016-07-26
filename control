@@ -1,7 +1,7 @@
 Package: xyz.gsora.noscreenshotty
 Name: NoScreenshotty
 Depends: mobilesubstrate, preferenceloader
-Version: 0.2.1
+Version: 0.2.2
 Architecture: iphoneos-arm
 Description: Disable native iOS screenshot feature in certain applications
 Maintainer: Gianguido "plk" Sorà
